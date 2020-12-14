@@ -22,7 +22,7 @@ if(ContaoEstateManager\GoogleMaps\AddonManager::valid()) {
     // Extend default palette
     Contao\CoreBundle\DataContainer\PaletteManipulator::create()
         ->addLegend('google_legend', 'filter_config_legend', Contao\CoreBundle\DataContainer\PaletteManipulator::POSITION_AFTER)
-        ->addField(array('googleApiToken'), 'google_maps_legend', Contao\CoreBundle\DataContainer\PaletteManipulator::POSITION_APPEND)
+        ->addField(array('googleApiToken'), 'google_legend', Contao\CoreBundle\DataContainer\PaletteManipulator::POSITION_APPEND)
         ->applyToPalette('default', 'tl_real_estate_config')
     ;
 }

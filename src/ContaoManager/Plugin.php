@@ -17,7 +17,7 @@ use Contao\ManagerPlugin\Bundle\BundlePluginInterface;
 use Contao\ManagerPlugin\Bundle\Config\BundleConfig;
 use Contao\ManagerPlugin\Bundle\Parser\ParserInterface;
 use ContaoEstateManager\EstateManager\EstateManager;
-use ContaoEstateManager\GoogleBaseBundle\EstateManagerGoogleBaseBundle;
+use ContaoEstateManager\GoogleServices\EstateManagerGoogleServices;
 
 class Plugin implements BundlePluginInterface
 {
@@ -27,9 +27,9 @@ class Plugin implements BundlePluginInterface
     public function getBundles(ParserInterface $parser): array
     {
         return [
-            BundleConfig::create(EstateManagerGoogleBaseBundle::class)
+            BundleConfig::create(EstateManagerGoogleServices::class)
                 ->setLoadAfter([ContaoCoreBundle::class, EstateManager::class])
-                ->setReplace(['estatemanager-google-base']),
+                ->setReplace(['estatemanager-google-services']),
         ];
     }
 }

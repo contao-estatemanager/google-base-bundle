@@ -1,5 +1,5 @@
 {
-  "name":"contao-estatemanager/google-base-bundle",
+  "name":"contao-estatemanager/google-services",
   "type":"contao-bundle",
   "description":"Basic package for Google extensions of the Contao EstateManager",
   "keywords":["contao","estatemanager","real estate","estate","property","google"],
@@ -33,7 +33,7 @@
   },
   "autoload":{
     "psr-4": {
-      "ContaoEstateManager\\GoogleBaseBundle\\": "src/"
+      "ContaoEstateManager\\GoogleServices\\": "src/"
     },
     "classmap": [
       "src/Resources/contao/"
@@ -49,6 +49,6 @@
     "branch-alias": {
       "dev-master": "1.0.x-dev"
     },
-    "contao-manager-plugin": "ContaoEstateManager\\GoogleBaseBundle\\ContaoManager\\Plugin"
+    "contao-manager-plugin": "ContaoEstateManager\\GoogleServices\\ContaoManager\\Plugin"
   }
 }

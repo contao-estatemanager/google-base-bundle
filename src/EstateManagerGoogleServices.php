@@ -12,10 +12,10 @@ declare(strict_types=1);
 
 
 
-namespace ContaoEstateManager\GoogleBaseBundle;
+namespace ContaoEstateManager\GoogleServices;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class EstateManagerGoogleBaseBundle extends Bundle
+class EstateManagerGoogleServices extends Bundle
 {
 }
