@@ -1,0 +1,3 @@
+<?php
+
+$GLOBALS['TL_JAVASCRIPT'][] = 'https://maps.googleapis.com/maps/api/js?key=' . Contao\Config::get('googleApiToken') . '&libraries=places&callback=onGoogleMapsApiReady|async';
