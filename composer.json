@@ -19,8 +19,6 @@
   ],
   "require":{
     "php":">=7.1",
-    "ext-json": "*",
-    "ext-curl": "*",
     "contao/core-bundle":"^4.4",
     "contao-estatemanager/core": "^1.0.3"
   },
@@ -47,7 +45,7 @@
   },
   "extra":{
     "branch-alias": {
-      "dev-master": "1.0.x-dev"
+      "dev-main": "1.0.x-dev"
     },
     "contao-manager-plugin": "ContaoEstateManager\\GoogleServices\\ContaoManager\\Plugin"
   }

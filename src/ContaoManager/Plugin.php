@@ -10,7 +10,7 @@
 
 declare(strict_types=1);
 
-namespace ContaoEstateManager\GoogleBaseBundle\ContaoManager;
+namespace ContaoEstateManager\GoogleServices\ContaoManager;
 
 use Contao\CoreBundle\ContaoCoreBundle;
 use Contao\ManagerPlugin\Bundle\BundlePluginInterface;
