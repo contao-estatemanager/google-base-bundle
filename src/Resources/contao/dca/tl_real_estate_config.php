@@ -9,7 +9,6 @@
  */
 
 // Add field
-// ToDo: Rename field in googlemaps bundle
 $GLOBALS['TL_DCA']['tl_real_estate_config']['fields']['googleApiToken'] = array
 (
     'label'                   => &$GLOBALS['TL_LANG']['tl_real_estate_config']['googleApiToken'],
@@ -17,7 +16,6 @@ $GLOBALS['TL_DCA']['tl_real_estate_config']['fields']['googleApiToken'] = array
     'eval'                    => array('tl_class'=>'w50')
 );
 
-// ToDo: Rename legend in googlemaps bundle
 // Extend default palette
 Contao\CoreBundle\DataContainer\PaletteManipulator::create()
     ->addLegend('google_legend', 'filter_config_legend', Contao\CoreBundle\DataContainer\PaletteManipulator::POSITION_AFTER)
