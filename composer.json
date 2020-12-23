@@ -4,7 +4,7 @@
   "description":"Basic package for Google extensions of the Contao EstateManager",
   "keywords":["contao","estatemanager","real estate","estate","property","google"],
   "homepage":"https://www.contao-estatemanager.com/",
-  "license":"proprietary",
+  "license":"AGPL-3.0-or-later",
   "authors":[
     {
       "name":"Oveleon",
